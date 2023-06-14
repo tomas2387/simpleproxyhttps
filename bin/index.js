@@ -48,12 +48,12 @@ if (!fs.existsSync('./ssl/ca.pem')) {
 httpProxy.createServer({
     target: {
         host: 'localhost',
-        port: fromPort
+        port: toPort
     },
     ssl: {
         key: fs.readFileSync('./ssl/private.pem', 'utf8'),
         cert: fs.readFileSync('./ssl/cert.pem', 'utf8'),
         ca: fs.readFileSync('./ssl/ca.pem', 'utf8')
     }
-}).listen(toPort);
+}).listen(fromPort);
 console.log(`Proxying from port ${fromPort} to port ${toPort}`);
