@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/tomas2387/simpleproxyhttps.git"
   },
+  "bin": {
+    "simpleproxyhttps": "bin/index.js"
+  },
   "keywords": [],
   "author": "Tomas Prado <tomas2387@gmail.com>",
   "license": "MIT",
