@@ -1,6 +1,6 @@
 {
   "name": "simpleproxyhttps",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Node https proxy pass no configuration",
   "main": "index.js",
   "scripts": {
