@@ -1,0 +1,15 @@
+{
+  "name": "httpsproxy",
+  "version": "1.0.0",
+  "description": "Node https proxy pass no configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tomas Prado <tomas2387@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
