@@ -56,7 +56,4 @@ httpProxy.createServer({
         ca: fs.readFileSync('./ssl/ca.pem', 'utf8')
     }
 }).listen(toPort);
-
 console.log(`Proxying from port ${fromPort} to port ${toPort}`);
-
-process.exit(0); //no errors occurred
